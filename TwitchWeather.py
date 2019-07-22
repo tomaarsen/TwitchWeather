@@ -91,7 +91,11 @@ class TwitchWeather:
         
         # If some other error (eg. api limit exceeded)
         else:
-            return "Unknown error encountered.", ResultCode.ERROR
+            if 'cod' in data:
+                out = f"Error with code {data['cod']} encountered."
+            else:
+                out = "Unknown error encountered"
+            return out, ResultCode.ERROR
 
 if __name__ == "__main__":
     TwitchWeather()
