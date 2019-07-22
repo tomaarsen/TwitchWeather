@@ -80,7 +80,7 @@ class TwitchWeather:
         # If successful
         elif data['cod'] == 200:
             celcius = float(data["main"]["temp"]) - 273.15
-            fahrenheit = celcius * 1.9 + 32
+            fahrenheit = celcius * 1.8 + 32
             humidity = float(data["main"]["humidity"])
             city = data["name"]
             country = data["sys"]["country"]
