@@ -2,15 +2,19 @@
 Twitch bot which displays weather information of any town
 
 ---
+
 # Explanation
 
 When the bot has started, it will start listening to chat messages in the channel listed in the settings.txt file. Whenever a user types `!weather <city>` in chat, the bot will respond with precise weather information in that city. 
+
+---
 
 # Usage
 Command:
 <pre><b>!weather &lt;city&gt;</b></pre>
 For example:
 <pre><b>!weather Toronto<br>19.6°C/69°F, 68.0% humidity, with overcast clouds in Toronto, CA.</b></pre>
+
 ---
 
 # Settings
