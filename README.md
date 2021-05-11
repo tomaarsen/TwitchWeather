@@ -10,7 +10,7 @@ When the bot has started, it will start listening to chat messages in the channe
 Command:
 <pre><b>!weather &lt;city&gt;</b></pre>
 For example:
-<pre><b>!weather Toronto<br>19.6°C/69°F, 68.0% humidity, with overcast clouds in Toronto, CA.</pre></b>
+<pre><b>!weather Toronto<br>19.6°C/69°F, 68.0% humidity, with overcast clouds in Toronto, CA.</b></pre>
 ---
 
 # Settings
