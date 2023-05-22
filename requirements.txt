@@ -1,2 +1,2 @@
 git+git://github.com/CubieDev/TwitchWebsocket@master#egg=TwitchWebsocket
-requests==2.22.0
+requests==2.31.0
